@@ -14,14 +14,14 @@ public class StoreData {
         Transaction t = session.beginTransaction();
 
         Category category = new Category();
-        category.setCategoryName("Shoes");
+        category.setCategoryName("Laptop");
 
         Catalog catalog0 = new Catalog();
-        catalog0.setCatalogName("Formal");
+        catalog0.setCatalogName("Normal");
         catalog0.setStatus("Active");
 
         Catalog catalog1 = new Catalog();
-        catalog1.setCatalogName("Casual");
+        catalog1.setCatalogName("Gaming");
         catalog1.setStatus("Inactive");
 
         category.getListt().add(catalog0);
